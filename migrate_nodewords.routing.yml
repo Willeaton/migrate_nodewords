@@ -1,0 +1,7 @@
+migrate_nodewords.migrate:
+  path: '/admin/config/search/migrate_nodewords'
+  defaults:
+    _form: '\Drupal\migrate_nodewords\Form\migrateNodewords'
+    _title: 'Nodewords migration'
+  requirements:
+    _permission: 'Administer site configuration'

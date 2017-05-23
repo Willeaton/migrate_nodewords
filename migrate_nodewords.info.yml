@@ -1,0 +1,5 @@
+name: migrate_nodewords
+type: module
+description: Nodewords Migrate
+core: 8.x
+package: Custom
